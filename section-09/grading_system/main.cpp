@@ -8,7 +8,7 @@ int32_t main(int32_t argc, char *argv[]) {
 
     char letter_grade{'\0'};
     if (scores >= 0 && scores <= 100) {
-        /* for an valid score */
+        /* for a valid score */
         if (scores > 90) {
             letter_grade = 'A';
         } else if (scores > 80) {
